@@ -8,8 +8,8 @@ passport.use(
   new GoogleTokenStrategy(
     {
       clientID:
-        '48996924170-qbfeit9sinbbh8q3ftf9loia7otm85qh.apps.googleusercontent.com',
-      clientSecret: 'R2ZBVm-vdqlrpTje_VaARPKs',
+        '',
+      clientSecret: '',
       passReqToCallback: true
     },
     async (req, accessToken, refreshToken, profile, done) => {
